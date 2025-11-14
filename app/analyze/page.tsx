@@ -147,14 +147,7 @@ export default function AnalyzePage() {
           </p>
           {isSTTSupported() && (
             <div className="mt-4">
-              <Button
-                variant={isListening ? 'default' : 'outline'}
-                onClick={toggleVoiceInput}
-                className={isListening ? 'animate-pulse' : 'border-primary/60 text-primary hover:bg-primary/10'}
-              >
-                <Mic className="h-5 w-5 mr-2" />
-                {isListening ? (selectedLanguage === 'hi' ? 'वॉइस नोट रिकॉर्ड हो रहा है...' : 'Recording voice note...') : (selectedLanguage === 'hi' ? 'वॉइस नोट जोड़ें' : 'Add voice note')}
-              </Button>
+              
             </div>
           )}
         </div>
