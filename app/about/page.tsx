@@ -144,12 +144,6 @@ export default function AboutPage() {
           </div>
         </section>
       </main>
-
-      <footer className="border-t border-border/60 bg-background/80 py-8">
-        <div className="mx-auto max-w-5xl px-4 text-center text-xs uppercase tracking-[0.3em] text-foreground/40 sm:px-6 lg:px-8">
-          © 2025 FarmGuide · Empowering mindful agriculture across India
-        </div>
-      </footer>
     </div>
   );
 }

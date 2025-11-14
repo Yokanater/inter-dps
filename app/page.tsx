@@ -66,10 +66,10 @@ export default function HomePage() {
 
             <div className="space-y-6">
               <h1 className="font-display text-5xl leading-[1.05] text-foreground sm:text-6xl lg:text-7xl">
-                Honey-warm intelligence for calm, confident farming.
+                The Farmer's best friend when he needs it
               </h1>
               <p className="max-w-2xl text-lg leading-relaxed text-foreground/70 sm:text-xl">
-                FarmGuide blends weather awareness, soil wisdom, and crop science into a gentle assistant that speaks your language and keeps your land thriving season after season.
+                FarmGuide uses LLMs, Convolutional Neural Networks and Voice Recognition to help farmers
               </p>
             </div>
 
@@ -96,12 +96,12 @@ export default function HomePage() {
                   Season-ready in minutes
                 </div>
                 <p className="mt-4 text-sm leading-relaxed text-foreground/70">
-                  Answer three quick prompts—FarmGuide builds a personalised plan covering irrigation, nutrition, and market timing.
+                 FarmGuide builds a personalised plan covering irrigation, nutrition, and market timing.
                 </p>
               </div>
               <div className="rounded-3xl border border-border/60 bg-card/70 p-6 shadow-honey-sm">
-                <p className="text-3xl font-display text-primary">96%</p>
-                <p className="mt-2 text-sm text-foreground/70">farmers feel more confident making crop decisions after their first week with FarmGuide.</p>
+                <p className="text-3xl font-display text-primary">100%</p>
+                <p className="mt-2 text-sm text-foreground/70">We try to be as accurate as possible</p>
                 <div className="mt-4 flex items-center gap-2 text-xs uppercase tracking-[0.3em] text-foreground/50">
                   <TrendingUp className="h-4 w-4" />
                   Transparent outcomes
@@ -158,30 +158,6 @@ export default function HomePage() {
                 <p className="text-sm leading-relaxed text-foreground/70">{description}</p>
               </div>
             ))}
-          </div>
-        </section>
-
-        {/* Outcome strip */}
-        <section className="glass-surface rounded-[38px] px-8 py-12 shadow-honey-lg sm:px-12">
-          <div className="grid gap-8 md:grid-cols-3 md:items-center">
-            <div className="space-y-3">
-              <span className="text-xs font-semibold uppercase tracking-[0.3em] text-primary/80">
-                Growing with FarmGuide
-              </span>
-              <h2 className="font-display text-3xl text-foreground sm:text-4xl">Designed for multi-lingual, multi-crop life</h2>
-            </div>
-            <div className="space-y-4 text-sm leading-relaxed text-foreground/70">
-              <p>
-                Seamless Hindi and English support ensures clear guidance for every family member caring for the farm.
-              </p>
-              <p>
-                Plan irrigation, nutrients, and inventory in one rhythm while FarmGuide tracks historical actions for the season ahead.
-              </p>
-            </div>
-            <div className="rounded-[28px] border border-primary/20 bg-background/70 p-6 text-sm leading-relaxed text-foreground/70">
-              <p className="font-display text-2xl text-primary">“A gentle mentor I can carry in my pocket.”</p>
-              <p className="mt-3 text-xs uppercase tracking-[0.28em] text-foreground/50">Pilot farmer · Madhya Pradesh</p>
-            </div>
           </div>
         </section>
 
