@@ -1,23 +1,11 @@
-/**
- * LLM Integration using Groq API for Agricultural Assistance
- * Supports multilingual queries (Hindi + English)
- * Get your free API key at: https://console.groq.com
- * 
- * Free tier limits: 30 req/min, 6000 req/day, 7000 tokens/min
- */
 
-// Get API key from environment variable
 const GROQ_API_KEY = process.env.NEXT_PUBLIC_GROQ_API_KEY || '';
 const GROQ_MODEL = 'llama-3.3-70b-versatile';
 
-/**
- * Types for farming assistance contexts
- */
+
 export type FarmingContext = 'diagnosis' | 'inventory' | 'general';
 
-/**
- * System prompts for different farming contexts
- */
+
 function getFarmingSystemPrompt(context: FarmingContext): string {
   const prompts = {
     diagnosis: `You are FarmGuide, an expert agricultural AI assistant helping Indian farmers diagnose crop problems.
